@@ -152,13 +152,24 @@ body {
 .info{
     border:1px solid #cccc;
     border-radius: 10px;
-    /* border:none; */
-    width: 200px;
-    height: 150px;
+    border:none;
+    text-align: center;
+    padding-top:100px;
+    padding-left: 250px;
+    align-items: center;
 }
 .info h2{
     color: #DC6B4F;
 }
 .info p{
     color:white;
+}
+.last hr{
+    width: 80%;
+    margin:0 auto;
+    opacity: 0.5;
+}
+.notefoot{
+    text-align: center;
+    color:#cccc;
 }
