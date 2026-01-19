@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #FFF8F0;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 96.31px;
+    align-items: center;
+    padding-left: 300px;
+}
+
+.title h1 {
+    color: #E76F51;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    margin-right: auto;
+    padding-left: 500px;
+    align-items: center;
+    gap: 25px;
+}
+
+.buttoncontact {
+    text-decoration: none;
+    border: 1px solid #cccc;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #E76F51;
+    color: white;
+}
+
+.background {
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: 960px;
+}
+
+.contentinbackground {
+    color: white;
+    position: absolute;
+    right: 500px;
+    top: 400px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: black;
+}
+
+.buttonhero {
+    border: 1px solid #cccc;
+    background-color: #E76F51;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.specialdishe {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dishe h2 {
+    padding: 12px;
+}
+
+.dishe {
+    border: 1px solid #cccc;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.dishe img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price p {
+    color: #E8785B;
+    padding: 10px;
+}
+
+.about p {
+    opacity: 0.5;
+    padding: 10px;
+}
+
+.titleinmain h2 {
+    text-align: center;
+    Padding: 12px;
+    color: #E76F51;
+}
+
+.namedish {
+    display: flex;
+    padding: 15px;
+}
+
+.otherfood{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin:40px auto;
+    max-width: 1100px;
+}
+
+.foodmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #cccc;
+    width: 300px;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: white;
+
+}
+
+.foodmenu .price {
+    color: #E8785B;
+}
+.last{
+    background-color: #3C2F2F;
+    height: 354.22px;
+}
+.aboutinfo{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap:10px;
+    padding:40px auto;
+}
+.info{
+    border:1px solid #cccc;
+    border-radius: 10px;
+    /* border:none; */
+    width: 200px;
+    height: 150px;
+}
+.info h2{
+    color: #DC6B4F;
+}
+.info p{
+    color:white;
+}
